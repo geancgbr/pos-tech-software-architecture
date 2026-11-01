@@ -27,6 +27,9 @@ aulas: 6
 | BDD | SpecFlow (.NET), Cucumber (várias linguagens), Gherkin (linguagem dos cenários) |
 | Teste de carga | JMeter (desenvolvido em Java), K6 (pré-requisito: JavaScript básico) |
 
+## Lab prático
+[ddd-hexagonal](https://github.com/geancgbr/ddd-hexagonal): a API de pedidos ganhou TDD (o cupom de desconto, com um commit por etapa do ciclo), testes de caixa branca e preta com cobertura no JaCoCo, integração com Testcontainers, BDD com Cucumber em português e carga e estresse com k6. É código meu para praticar, não conteúdo da apostila.
+
 ## Material
 PDFs em `~/Desktop/FASE 1/Qualidade de Software/`. **As notas resumem apenas o conteúdo escrito nos PDFs.** As figuras (teste de airbag, fluxo do TDD, fluxo do BDD, telas do JMeter e do K6) não estão nas notas: quando uma nota cita uma figura, consulte o PDF. O código dos exemplos foi transcrito do PDF; só a indentação foi refeita, porque a extração bagunçou a ordem de algumas linhas.
 
