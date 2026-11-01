@@ -12,13 +12,13 @@ aulas: 5
 > [!note] Os PDFs não trazem nome de autor. A disciplina vai da teoria ([[Resiliência]], métricas, padrões) à prática em código (Python, Go, Node.js e [[Resilience4j]] em Java), depois à infraestrutura ([[Service Mesh]]) e por fim ao [[Chaos Engineering]].
 
 ## Aulas
-| # | Aula | Conceitos-chave |
-|---|---|---|
-| 1 | [[RES 01 - Introdução à resiliência]] | [[Resiliência]] (defeito, erro e falha), [[MTTF, MTTR e MTBF]], balanceamento e health checks |
-| 2 | [[RES 02 - Padrões de resiliência]] | [[Idempotência]], [[Timeout]], [[Retry e Backoff Exponencial]], [[Circuit Breaker]], [[Bulkhead]], [[Rate Limiting e Throttling]], [[Fallback e Graceful Degradation]], [[Failover]] |
-| 3 | [[RES 03 - Resiliência na prática]] | Idempotency Key, `context.WithTimeout`, jitter, [[Resilience4j]], janelas deslizantes |
-| 4 | [[RES 04 - Service Mesh e controle de tráfego]] | [[Service Mesh]] (Data e Control Plane), [[Sidecar]], Canary e A/B ([[Estratégias de Deployment]]), Istio, Linkerd, Consul Connect |
-| 5 | [[RES 05 - Chaos Engineering]] | [[Chaos Engineering]] (Chaos Monkey, princípios, ferramentas), observabilidade |
+| #   | Aula                                            | Conceitos-chave                                                                                                                                                                      |
+| --- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | [[RES 01 - Introdução à resiliência]]           | [[Resiliência]] (defeito, erro e falha), [[MTTF, MTTR e MTBF]], balanceamento e health checks                                                                                        |
+| 2   | [[RES 02 - Padrões de resiliência]]             | [[Idempotência]], [[Timeout]], [[Retry e Backoff Exponencial]], [[Circuit Breaker]], [[Bulkhead]], [[Rate Limiting e Throttling]], [[Fallback e Graceful Degradation]], [[Failover]] |
+| 3   | [[RES 03 - Resiliência na prática]]             | Idempotency Key, `context.WithTimeout`, jitter, [[Resilience4j]], janelas deslizantes                                                                                                |
+| 4   | [[RES 04 - Service Mesh e controle de tráfego]] | [[Service Mesh]] (Data e Control Plane), [[Sidecar]], Canary e A/B ([[Estratégias de Deployment]]), Istio, Linkerd, Consul Connect                                                   |
+| 5   | [[RES 05 - Chaos Engineering]]                  | [[Chaos Engineering]] (Chaos Monkey, princípios, ferramentas), observabilidade                                                                                                       |
 
 ## Ligações com outras disciplinas
 - **Estrutura de Microsserviços (Fase 4)**: o [[Circuit Breaker]] já aparecia na comunicação entre processos e no API Gateway; aqui ganha janelas deslizantes, Resilience4j e Service Mesh.

@@ -24,6 +24,9 @@ aulas: 5
 | Camada de **aplicação** | Contém a lógica de negócios ([[Arquitetura de Camadas]]). Na hexagonal, o "Application" do centro é o domínio e não tem relação com a camada de aplicação | **Não** contém regra de negócio ([[Camadas do DDD]]) |
 | **Tático** | [[Modelagem Tática]]: levantar requisitos e planejar ações de curto e médio prazo | [[Design Tático]]: o "como" (camadas, entidades, VOs, agregados) |
 
+## Lab prático
+[ddd-hexagonal](https://github.com/geancgbr/ddd-hexagonal): API de pedidos em Java com Objetos de Valor, Entidades, Agregado, Serviço de Domínio, Eventos de Domínio e Portas e Adaptadores. É código meu para praticar, não conteúdo da apostila.
+
 ## Material
 PDFs em `~/Desktop/FASE 1/Arquitetura de Software/`. **As notas resumem apenas o conteúdo escrito nos PDFs.** As figuras (módulos do REC, fluxo de cache, pirâmide de testes, desenho original do hexágono, atores) não estão nas notas: quando uma nota cita uma figura, consulte o PDF. Os itens de "Hands On" resumem o que o PDF diz que foi mostrado nos vídeos.
 

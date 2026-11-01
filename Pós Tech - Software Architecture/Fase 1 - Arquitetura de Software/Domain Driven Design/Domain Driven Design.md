@@ -46,6 +46,9 @@ flowchart LR
 - **Escola** (aulas 1 a 6): domínio Educação, recorte de entrega e correção de atividades.
 - **CRM integrado** (aulas 7 a 9): troca do Excel por uma plataforma de cotações.
 
+## Lab prático
+[ddd-hexagonal](https://github.com/geancgbr/ddd-hexagonal): API de pedidos em Java com Objetos de Valor, Entidades, Agregado, Serviço de Domínio, Eventos de Domínio e Portas e Adaptadores. É código meu para praticar, não conteúdo da apostila.
+
 ## Material
 PDFs em `~/Desktop/FASE 1/DDD/`. **As notas resumem apenas o conteúdo escrito nos PDFs**, sem acréscimos externos. As figuras dos PDFs (fluxogramas, mapas, post-its) não estão nas notas: quando uma nota cita uma figura, consulte o PDF.
 
