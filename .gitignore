@@ -1,0 +1,11 @@
+# Estado da interface do Obsidian (muda a cada abertura)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Sistema
+.DS_Store
+
+# Material do curso não vai para o repositório
+*.pdf
