@@ -35,6 +35,9 @@ aulas: 6
 | Treinamento | [[OWASP Juice Shop e WebGoat\|OWASP Juice Shop, OWASP WebGoat]] |
 | Avaliar a nuvem AWS | AWS Well-Architected Tool, Trusted Advisor, AWS Security Hub |
 
+## Lab prático
+[ddd-hexagonal](https://github.com/geancgbr/ddd-hexagonal): a API de pedidos ganhou validação de entrada contra SQL Injection e XSS, menor privilégio no banco, rede interna, SBOM com Trivy (vulnerabilidades e licenças), SpotBugs/FindSecBugs, SonarQube e OWASP ZAP, além de um mapa do OWASP Top 10 2021. É código meu para praticar, não conteúdo da apostila.
+
 ## Material
 PDFs em `~/Desktop/FASE 1/Desenvolvimento Seguro/`. **As notas resumem apenas o conteúdo escrito nos PDFs.** Quatro temas citados nos títulos ou nos resumos **não estão no texto**: a diferença entre ataque, vulnerabilidade e intrusão (aula 1); o buffer overflow e o impacto do XSS na autenticação JWT (aula 2); e a lista do OWASP Top 10 (aula 5). As figuras (como a da UA-Parser-JS) não estão nas notas.
 
