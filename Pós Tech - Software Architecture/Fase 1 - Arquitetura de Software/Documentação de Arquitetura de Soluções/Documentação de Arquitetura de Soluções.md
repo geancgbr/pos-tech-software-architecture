@@ -33,6 +33,9 @@ flowchart LR
 ```
 O diagrama é só um mapa de navegação, montado a partir do que as apostilas dizem: o HLD vem antes do LLD, o C4 faz a transição entre os dois e a estrutura do DAS inclui requisitos, diagramas C4 e ADRs (aula 6).
 
+## Lab prático
+[ddd-hexagonal](https://github.com/geancgbr/ddd-hexagonal/tree/trunk/docs): a mesma API de pedidos ganhou a documentação completa da disciplina: requisitos com rastreabilidade até os testes, HLD, LLD, modelo C4 em Structurizr DSL, 10 ADRs (uma como Proposta) e um DAS com os 11 elementos da aula 6, além do contrato OpenAPI conferido no build. É código meu para praticar, não conteúdo da apostila.
+
 ## Material
 PDFs em `~/Desktop/FASE 1/Documentação de Arquiteturas de Soluções/`. **As notas resumem apenas o conteúdo escrito nos PDFs.** As figuras (template de ADR de Nygard, exemplos de HLD e LLD, os diagramas do C4, o mapa de requisitos, o processo e o exemplo de ADR) não estão nas notas: quando uma nota cita uma figura, consulte o PDF.
 
